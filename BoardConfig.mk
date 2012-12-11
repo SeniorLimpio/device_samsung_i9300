@@ -30,7 +30,12 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9300/bluetooth
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := ldroid_i9300_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
+
+# ROM
+TARGET_GCC_VERSION_AND := 4.8-sm
+
+# KERNEL
+TARGET_GCC_VERSION_ARM := 4.9-sm
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/i9300/rootdir/fstab.smdk4x12
