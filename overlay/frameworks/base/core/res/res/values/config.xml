@@ -100,4 +100,7 @@
     <!-- Default LED off time for notification LED in milliseconds. -->
     <integer name="config_defaultNotificationLedOff">9000</integer>
 
+    <!-- Enable lockscreen rotation -->
+    <bool name="config_enableLockScreenRotation">true</bool>
+
 </resources>
