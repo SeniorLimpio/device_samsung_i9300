@@ -156,4 +156,7 @@
     -->
     <integer name="config_doubleTapOnHomeBehavior">0</integer>
 
+    <!-- Enable lockscreen rotation -->
+    <bool name="config_enableLockScreenRotation">true</bool>
+
 </resources>
