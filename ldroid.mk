@@ -5,7 +5,7 @@ TARGET_SCREEN_WIDTH := 720
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 
-# Inherit some common Slim stuff.
+# Inherit some common L-Droid stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Specify phone tech before including full_phone
@@ -16,7 +16,7 @@ PRODUCT_RELEASE_NAME := i9300
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9300
-PRODUCT_NAME := slim_i9300
+PRODUCT_NAME := ldroid_i9300
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-I9300
 PRODUCT_MANUFACTURER := samsung
